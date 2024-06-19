@@ -102,11 +102,11 @@ a.website {
   border-bottom: none;
 }
 
-/*img.headshot {
+img.headshot {
   width: 50%;
   border-radius: 50%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}*/
+}
 
 img.card-img-top {
   max-width: 100%;
