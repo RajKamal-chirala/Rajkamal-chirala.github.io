@@ -1,0 +1,27 @@
+{% extends 'base.jinja2' %}
+{% block content %}
+    <div class="col-md-8">
+        <h1>Some things I've worked on:</h1>
+    </div>
+    <div class="col-md-4"></div>
+
+    <ul>
+    <h4> Text to audio converter </h4>
+        <li>Developed a project to convert text to audio using AWS Polly and other AWS services, deployed on AWS Free Tier.</li>
+	<li> This helped me to gain hands on experience with AWS services and terraform, including creating IAM policies, roles, lambda functions, and other resources. </li>
+	<li> Tech stack and resources used: <code>Terraform</code>, <code>AWS</code>(Polly, Lambda, S3, DynamoDB, API Gateway, SNS),<code>JavaScript</code>, <code>HTML</code>.
+            <a href="https://github.com/RajKamal-chirala/Text-to-Audio-Converter/tree/main/Text-to-audio" target="_blank" class="projlink github">GitHub</a>
+        </li>
+    </ul>
+<ul>
+<h4> Personal Website </h4>
+<li> Created this personal website using Python and Flask to apply what I have learnt through the python course in udemy.</li>
+<li> This platform serves as a portfolio to display my projects, skills, and professional profile.</li>
+<h4> Reverse Shell </h4>
+<li> A reverse shell is a type of shell session that is initiated from a remote machine, as opposed to a traditional shell, which is initiated from the local machine. In a reverse shell scenario, the remote machine connects back to the attacking machine. This technique is often used to bypass network security mechanisms, such as firewalls and NAT (Network Address Translation), which typically block incoming connections.</li>
+<li> Created reverse Shell using python socket library. </li>
+<li> <a href="https://github.com/RajKamal-chirala/Reverse-Shell/blob/main/Client.py" target="_blank">Client.py</a> is ran on the host that we want to connect to. This script has the ip address of the server and creates a connection to it. </li>
+<li> <a href="https://github.com/RajKamal-chirala/Reverse-Shell/blob/main/Server.py" target="_blank">Server.py</a> is ran form the server with a static ip address. It listens and accepts the connections coming from the client hosts.</li>
+
+
+{% endblock %}
