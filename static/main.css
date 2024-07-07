@@ -1,0 +1,168 @@
+html {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 10px 5%;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.row {
+  margin: 20px 0;
+}
+
+.navbar {
+  font-weight: bold;
+  flex-wrap: nowrap;
+  margin-bottom: 50px;
+  background-color: #343a40;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  display: inline-block;
+  color: #212529;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  display: inline-block;
+  color: #495057;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6c757d;
+}
+
+a {
+  transition: border-color 200ms ease, color 200ms ease;
+  text-decoration: none;
+  color: #007bff;
+  background: linear-gradient(transparent 0, transparent 70%, #007bff33 60%, #007bff33 100%);
+}
+
+a:hover {
+  text-decoration: none; 
+  color: #0056b3;
+}
+
+a:focus {
+  border-bottom-color: #0056b3;
+  color: #0056b3;
+}
+
+a.projlink {
+  background: none;
+  color: white;
+  padding: 5px;
+  border-radius: 7px;
+  transition: background-color 200ms ease, color 200ms ease;
+}
+
+a.github {
+  background-color: #6cc644;
+}
+
+a.website {
+  background-color: #20c997;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+  padding-right: 15px;
+  text-align: right;
+}
+
+.social-icon svg {
+  margin-top: 10%;
+  margin-right: 15px;
+  padding-right: 2px;
+  float: left;
+  border-bottom: none;
+}
+
+img.headshot {
+  width: 50%;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+img.card-img-top {
+  max-width: 100%;
+  min-height: 150px;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+img.img-fluid {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 500px;
+  border-radius: 5px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 14px;
+  margin-bottom: 0.6em;
+  position: relative;
+  padding-left: 20px;
+}
+
+li:before {
+  content: "-"; 
+  position: absolute;
+  left: 0;
+  color: #007bff;
+}
+
+article {
+  margin-bottom: 120px;
+}
+
+code {
+  background-color: #f1f1f1;
+  color: #d63384;
+  font-size: 87.5%;
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  word-break: break-word;
+}
+
+.table td p {
+  font-size: 13px;
+  line-height: 1.1;
+  color: #495057;
+}
+
